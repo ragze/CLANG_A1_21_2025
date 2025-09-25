@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int r, a, l, w;
+    scanf("%d %d %d %d", &r, &a, &l, &w);
+    printf("Circle: %.2f %.2f\n", 3.141593* r * r, 2 *3.141593* r);
+    printf("Square: %.2f %.2f\n", (float)a * a, 4.0 * a);
+    printf("Rectangle: %.2f %.2f", (float)l * w, 2.0 * (l + w));
+    return 0;
+}
