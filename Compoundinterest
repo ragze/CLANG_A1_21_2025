@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include <math.h>
+int main() {
+    int P,T;
+    float R;
+    
+    scanf("%d %f %d", &P, &R, &T);
+    
+    printf("%.2lf\n",(P * pow((1 + R / 100), T) - P));
+
+    return 0;
+}
