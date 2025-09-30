@@ -2,13 +2,11 @@
 int main() {
     int A,B,C;
     scanf("%d %d %d",&A,&B,&C);
-          if(A>=B && A>=C){
+          if(A>=B && A>=C)
               printf("%d",A);
-          } else if(B>=A && B>=C){
+          else if(B>=A && B>=C)
               printf("%d",B);
-          }else{
+          else
               printf("%d",C);
-          }
           return 0;
-    return 0;
 }
