@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main() {
+    int N;
+    scanf("%d", &N);
+    
+    if (N >= 500) {
+        printf("500: %d\n", N / 500);
+        N = N % 500;
+    }
+    if (N >= 100) {
+        printf("100: %d\n", N / 100);
+        N = N % 100;
+    }
+    if (N >= 50) {
+        printf("50: %d\n", N / 50);
+        N = N % 50;
+    }
+    if (N >= 20) {
+        printf("20: %d\n", N / 20);
+        N = N % 20;
+    }
+    if (N >= 10) {
+        printf("10: %d\n", N / 10);
+        N = N % 10;
+    }
+    if (N >= 5) {
+        printf("5: %d\n", N / 5);
+        N = N % 5;
+    }
+    if (N >= 2) {
+        printf("2: %d\n", N / 2);
+        N = N % 2;
+    }
+    if (N >= 1) {
+        printf("1: %d\n", N);
+    }
+    return 0;
+}
