@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int Basic_Salary;
+    scanf("%d", &Basic_Salary);
+    
+    if(Basic_Salary<=10000)
+       printf("%.2f",(Basic_Salary*1.0) + (Basic_Salary*0.20) + (Basic_Salary*0.30));
+    else if(Basic_Salary<=20000)
+       printf("%.2f",(Basic_Salary*1.0) + (Basic_Salary)*0.25 + (Basic_Salary*0.40));
+    else
+       printf("%.2f",(Basic_Salary*1.0) + (Basic_Salary*0.30) + (Basic_Salary*0.50));
+    return 0;
+}
